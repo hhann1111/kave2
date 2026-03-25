@@ -44,3 +44,59 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f1ea;
+    color: #333;
+}
+
+/* FEJLÉC */
+header {
+    background-color: #6f4e37; /* kávé szín */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* TARTALOM */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* GALÉRIA */
+.coffee-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.coffee-gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* HOVER EFFEKT */
+.coffee-gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* SZÖVEG */
+p {
+    font-size: 18px;
+}
+
+/* LÁBLÉC */
+footer {
+    background-color: #6f4e37;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
