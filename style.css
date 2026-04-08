@@ -62,12 +62,12 @@ main img {
 
 /* GALLERY */
 .gallery {
-  display: grid;
-    grid-template-columns: repeat(3, 1fr); /* fix 3 oszlop */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     
-    width: 600px;          /* fix szélesség */
-    margin: 0 auto;        /* középre igazítás */
+    width: 500px;
+    margin: 40px auto; /* ↑↓ tér a header és footer felé */
 }
 
 .gallery img {
