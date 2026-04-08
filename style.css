@@ -3,7 +3,8 @@ body {
     background-color: black;
     color: white;
     font-family: Arial, sans-serif;
-    
+}
+
     cursor: url('cursor.png'), 16 16, auto;
 }
 
@@ -49,10 +50,14 @@ main {
 
 /* HOME IMAGE */
 main img {
-    width: 400px;
+    width: 300px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 15px;
+}
+
+    main img:hover {
+    transform: scale(1.1);
 }
 
 /* GALLERY */
