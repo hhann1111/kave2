@@ -3,6 +3,12 @@ body {
     background-color: black;
     color: white;
     font-family: Arial, sans-serif;
+    
+    cursor: url('cursor.png'), 16 16, auto;
+}
+
+a:hover {
+    cursor: pointer;
 }
 
 /* HEADER */
