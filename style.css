@@ -67,7 +67,7 @@ main img {
     gap: 20px;
     
     width: 500px;
-    margin: 40px auto; /* ↑↓ tér a header és footer felé */
+    margin: 100px auto; /* ↑↓ tér a header és footer felé */
 }
 
 .gallery img {
