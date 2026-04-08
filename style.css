@@ -111,7 +111,6 @@ footer {
     opacity: 0.8;
 
     animation: fall linear infinite;
-}
 
 /* animáció */
 @keyframes fall {
@@ -120,7 +119,6 @@ footer {
     }
     100% {
         transform: translateY(110vh) rotate(360deg);
-    }
 
 header, main, footer {
     position: relative;
