@@ -49,7 +49,7 @@ main {
 
 /* HOME IMAGE */
 main img {
-    width: 700px;
+    width: 600px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 15px;
@@ -61,7 +61,7 @@ main img {
     grid-template-columns: repeat(3, 1fr); /* fix 3 oszlop */
     gap: 20px;
     
-    width: 700px;          /* fix szélesség */
+    width: 600px;          /* fix szélesség */
     margin: 0 auto;        /* középre igazítás */
 }
 
